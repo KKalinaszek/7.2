@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import BrowsersList from './component/BrowserList';
 import data from './data/data.json';
