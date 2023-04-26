@@ -1,20 +1,18 @@
 import React from 'react';
 
-export default function Navigation() {
+const Navigation = ({ links }) => {
   return (
     <nav>
       <p>Navigation bar</p>
       <ul>
-        <li>
-          <a href="default.asp">Home</a>
-        </li>
-        <li>
-          <a href="about.asp">About</a>
-        </li>
-        <li>
-          <a href="contact.asp">Contact</a>
-        </li>
+        {links.map(link => (
+            <li key={link.to}>
+                <a href={link.to}>{link.label}</a>
+            </li>
+        ))}
       </ul>
     </nav>
   );
 }
+
+export default Navigation;

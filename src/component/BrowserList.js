@@ -2,11 +2,18 @@ import React from 'react';
 import Browser from './Browser';
 import Footer from './Footer';
 import Navigation from './Navigation';
+import './Navigation.scss';
+
+const LINKS = [
+    { label: 'Home', to: "home"},
+    { label: 'About', to: "about"},
+    { label: 'Contact', to: "contact"}
+]
 
 export default function BrowsersList({ list }) {
   return (
     <article>
-      <Navigation />
+      <Navigation links={LINKS} />
       <header>
         <h1>Popular web browser</h1>
       </header>
