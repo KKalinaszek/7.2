@@ -3,7 +3,7 @@ import './Footer.scss';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className='Footer'>
       <p>Copyright by Bogate Interfejsy Webowe</p>
     </footer>
   );

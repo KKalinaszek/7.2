@@ -12,7 +12,7 @@ const LINKS = [
 
 export default function BrowsersList({ list }) {
   return (
-    <article>
+    <article className='BrowsersList'>
       <Navigation links={LINKS} />
       <header>
         <h1>Popular web browser</h1>

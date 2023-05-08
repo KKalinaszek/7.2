@@ -3,7 +3,7 @@ import './Navigation.scss';
 
 const Navigation = ({ links }) => {
   return (
-    <nav>
+    <nav className='Navigation'>
       <p>Navigation bar</p>
       <ul>
         {links.map(link => (

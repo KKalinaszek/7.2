@@ -1,1 +1,12 @@
 @import "../index.scss";
+
+.BrowsersList {
+    header{
+        padding: 10px;
+        margin: 10px;
+        h1 {
+            text-align: center;
+            color: $primary-background;
+        }
+    }
+}
