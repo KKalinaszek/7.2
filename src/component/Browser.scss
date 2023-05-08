@@ -1,5 +1,11 @@
 @import "../index.scss";
 
+$n-image-size: 100px;
+$n-radius: 50px;
+$l-image-size: 110px;
+$l-radius: 55px;
+
+
 .Browser{
     background-color: $primary-background;
     color:$primary-color;
@@ -11,15 +17,15 @@
         font-weight: 800;
     }
     img {
-        width: $image-size;
-        height: $image-size;
+        width: $n-image-size;
+        height: $n-image-size;
         background-color: white;
-        border-radius: $image-size/2;
+        border-radius: $n-radius;
         transition: all 0.2s ease-in-out;
         &:hover {
-          width: $image-size+10px;
-          height: $image-size+10px;
-          border-radius: ($image-size+10px)/2;
+          width: $l-image-size;
+          height: $l-image-size;
+          border-radius: $l-radius;
         }
       }
     p{
