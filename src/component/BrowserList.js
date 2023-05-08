@@ -2,7 +2,7 @@ import React from 'react';
 import Browser from './Browser';
 import Footer from './Footer';
 import Navigation from './Navigation';
-import './Navigation.scss';
+import './BrowserList.scss';
 
 const LINKS = [
     { label: 'Home', to: "home"},
